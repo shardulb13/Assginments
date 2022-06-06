@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Layout</title>
+        <style>
+        table,th,td,tr{
+                border: 1px solid black;
+                padding: 20px ;
+                border-collapse: collapse;
+            }
+            .logo{
+                border: 2px solid aqua
+            }
+            .form{
+                border: 3px solid purple;
+                padding: 100px;
+            }
+            .menu4{
+                height: 25px;
+            }
+            .menu{
+                border:2px solid red;
+            }
+            .footer{
+                border:2px solid yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+           <tr>
+               <th colspan="2" class="logo">Logo</th>
+           </tr>
+           <tr>
+               <td class="menu">Menu1</td>
+               <td rowspan="4" class="form">form</td>
+           </tr>
+           <tr>
+               <td class="menu">menu2</td>
+           </tr>
+           <tr>
+               <td class="menu">menu3</td>
+           </tr>
+           <tr>
+               <td class="menu4 menu"></td>
+           </tr>
+           <tr>
+               <td colspan="2" class="footer">Footer</td>
+           </tr>
+        </table>
+    </body>
+</html>
