@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Website Layout</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+               
+                
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            .img{
+                background-color: black;
+                
+            }
+
+            .menu{
+                background-color: rgb(49, 49, 49);
+                font-size:  20px;
+                width: 10%;
+                padding: 30px;
+                list-style-type: none;
+            }
+
+            li{
+                padding: 10px;
+            }
+            li a{
+                color: white;
+            }
+            
+            .container{
+                display: flex;
+                justify-content: space-between;
+            }
+
+            form{
+                margin: 30px auto;
+            }
+
+            input[type="text"], input[type="password"]{
+                margin: 10px 0px;
+                padding: 10px;
+                width: 100%;
+                border-radius: 12px 10px;
+                border: 2px solid black;
+            }
+
+            .btn-primary{
+                cursor: pointer;
+                margin-top: 8px;
+                padding: 10px;
+                width: 40%;
+                background-color: #0275d8;
+                font-weight: 900;
+                border-radius: 20px;
+
+            }
+            .btn-primary:hover{
+                transform: scale(1.1);
+            }
+
+            .btn-cancel{
+                cursor: pointer;
+                padding: 10px;
+                width: 40%;
+                background-color:#cf4742;
+                font-weight: 900;
+                border-radius: 20px;
+            }
+            .btn-cancel:hover{
+                transform: scale(1.1);
+            }
+
+            form h1{
+                padding: 18px 0px;
+            }
+
+            .footer{
+                background-color:black ;
+                color:white;
+                padding: 50px;
+            }
+            a{
+                color:orange;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="img">
+        <img src="https://incubxperts.com/wp-content/uploads/2020/12/ix-logo-w.png" title="ix-logo-w" alt="IncubXperts">
+        </div>
+        <div class="container">
+            <ul class="menu">
+                <li><a href="#">Home </a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+            <form>
+                <h1>Signup Form</h1>
+                <label for="username"><strong>Username:</strong></label><br>
+                <input type="text" name="Username" placeholder="Enter Username"><br>
+                <label for="password"><strong>Password:</strong></label><br>
+                <input type="password" name="password" placeholder="Enter Password"><br>
+                <button class="btn-primary">Submit</button>
+                <button class="btn-cancel">Cancel</button>
+            </form>
+        </div>
+      
+        
+        <div class="footer">
+            <h3>&copy;IncubXperts TechnoConsulting Solution</h3>
+            <a href="#">Privacy Statements |<span><a href="#">Terms of Use</a></span></a>
+        </div>
+    </body>
+</html>
