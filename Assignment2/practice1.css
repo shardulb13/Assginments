@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;   
+}
+.username{
+    display: flex;
+}
+
+#profilepic{
+    margin: 10px;
+    width: 50px;
+}
+#userid{
+    margin: 21px 0px;
+}
+
+.topics{
+    display: flex;
+  
+}
+
+li a{
+    color: white;
+    
+}
+span{
+    background-color: rgb(41, 41, 41);
+    padding: 50px;
+    width: 200px;
+    height: 100vh;
+}
+
+.topics li{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 10px;
+}
+#sectionheading{
+    text-align: center;
+    margin: 50px;
+}
+.car-image{
+    width: 50%;
+    
+}
+
+.info{  
+    position: relative; 
+}
+
+.car-info{
+    font-size: larger;
+    width: 500px;
+    position: absolute;
+    top: 200px;
+    right: 70px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contact{
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
