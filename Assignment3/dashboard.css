@@ -13,7 +13,7 @@ header{
     display: flex;
     margin: 10px 10px;
 }
-.userid{
+#userid{
     margin: 10px 10px;
 }
 #profilepic{
