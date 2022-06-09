@@ -2,18 +2,247 @@
     margin:0;
     padding:0;
 }
+
 header{
     background-color: black;
     color: white;
 }
+
 .username{
     float: right;
     display: flex;
     margin: 10px 10px;
 }
 #userid{
-    margin: 10px 10px;
+    margin: 10px 0px;
 }
 #profilepic{
     width: 3rem;
+}
+#profilepic1{
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    margin: 10px 2px;
+}
+
+.downarrowicon{
+    margin: 15px 10px;
+}
+
+.hamburgericon{
+    position: absolute;
+    top: 15px;
+    margin-left: 10px;
+}
+
+
+.menu-items{
+    background-color: rgb(243, 235, 235);
+    display: inline-block;
+    width: 164px;
+    height: 100vh;
+    
+}
+
+.menulinks{
+    margin:30px;
+    list-style: none;
+}
+.menulinks{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.content{
+    display: flex;
+    /* width: 100%; */
+}
+
+
+.dashboard-head{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 400px);
+}
+
+.dash-heading{
+    margin: 10px;
+}
+.dash-heading1{
+    font-weight: 900;
+    margin: 10px;
+    color:rgb(61, 189, 240);
+}
+
+.cirlceicons4, .cirlceicons3, .cirlceicons2{
+    margin-left: -10px;
+}
+.circle-icons{
+    display: flex;
+    margin: 10px;
+    
+
+}
+.dashboard-tabs{
+    text-decoration: none;
+    border-top: 1px solid black;
+    background-color: grey;
+    color:white;
+    text-align: center;
+    margin-left: 10px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+}
+
+.cardsection{
+    display: flex;
+    margin-top:10px ;
+}
+
+.droplinks{
+    padding: 0px 5px;
+    background-color: transparent;
+    border: 1px solid rgb(32, 190, 243);
+    margin: 0px 5px;
+    text-align: center;
+    text-decoration: none;
+    color:rgb(32, 190, 243);
+    border-radius: 10px;
+    width: 110px;
+    height: 45px;
+}   
+.clear-filter{
+    height: 45px;
+    padding: 10px;
+    background-color: transparent;
+    border:none;
+    margin: 0px 5px;
+    text-align: center;
+    text-decoration: none;
+    color:rgb(32, 190, 243);
+}
+.sort-by{
+    height: 45px;
+    padding: 10px;
+    background-color: transparent;
+    border:none;
+    float: right;
+    right: 0px;
+    margin: 0px 5px;
+    text-align: center;
+    text-decoration: none;
+    color:rgb(32, 190, 243);
+}
+
+.cards{
+   display: flex;
+}
+
+.card1{
+    box-shadow: 2px 1px 9px 0px rgb(129, 128, 128);;
+    width: 40%;
+    margin: 20px;
+}
+
+.envicon{
+    margin: 9px;
+}
+.btn-ack{
+    background-color:green;
+    margin: 0px 5px;
+    padding: 8px;
+    font-weight: bold;
+    border:none;
+    border-radius: 50px;
+    float: right;
+}
+.btn-urgent{
+    background-color:red;
+    padding: 8px;
+    font-weight: bold;
+    border:none;
+    border-radius: 50px;
+    float: right;
+}
+.date{
+    margin-top: 20px;
+}
+.qacode{
+    color:rgb(18, 179, 233);
+    font-weight: bold;
+}
+.progress{
+    border:2px solid black;
+    padding: 5px;
+    margin: 5px;
+    width: 65px;
+    text-align: center;
+}
+.date-noti{
+    border:2px solid black;
+    padding: 5px;
+    margin: 5px;
+    width: 65px;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list{
+    background-color:rgb(236, 234, 234) ;
+    padding: 10px;
+}
+.list-itm{
+    color: gray;
+    margin-top: 5px;
+     margin-left: 25px;
+    margin-bottom: 10px;
+}
+.itm-link{
+    text-decoration: none;
+    color:rgb(18, 179, 233);
+}
+.side1{
+    margin-top: 5px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.side2{
+    margin-top: 5px;
+    display: inline-block;
+    margin-left: 5px;
+}
+.btn-view{
+    margin: 10px;
+}
+.view{
+    padding: 10px 15px;
+    font-weight: bold;
+    background-color:rgb(18, 179, 233);
+    border:none;
+    border-radius: 50px;
+    width: 100%;
+}
+.date, .recall-id, .test-name, .qacode{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+#num{
+    font-size: 50px;
+}
+.da{
+    font-size: 12px;
+}
+#pro{
+    margin-top: 12px;
+}
+.bg{
+    background-color: rgb(236, 234, 234);
+    padding: 8px;
 }
