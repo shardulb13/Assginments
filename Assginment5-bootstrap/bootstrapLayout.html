@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Layout1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .bg-image{
+            background: linear-gradient(to Top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50% ), url(./Assets/bg-img.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-bottom: 10%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container-fluid bg-dark sticky-top ">
+        <nav class="navbar navbar-expand-lg ">
+           <a href="#" class="navbar-brand text-white">
+            <img src="./Assets/bootstrapLogo.png" alt="bootstrap logo" width="30" height="28 "
+            class="d-inline-block align-top">
+            <span class="d-none d-sm-inline-block">Bootstrap 5</span></a> 
+           <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto text-center ">
+                <li>
+                    <a href="#" class="nav-link text-white">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">About Us</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">Services</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">Contact</a>
+                </li>
+            </ul>
+          </div>
+        </nav>
+    </div>
+    <div class="container mt-4 mb-4">
+        <h1 class="text-center mb-4">Cards Example</h1>
+        <div class="row g-3">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="./Assets/city1.jpg" alt="europe city" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">A building in Europe</h5>
+                        <p class="card-text">Some quick example to build cards using bootstrap</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="./Assets/city1.jpg" alt="NY city" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">A building in New York</h5>
+                        <p class="card-text">Some quick example to build cards using bootstrap</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="./Assets/city1.jpg" alt="street city" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">A Building in USA</h5>
+                        <p class="card-text">Some quick example to build cards using bootstrap</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-4 mb-4">
+        <button type="button" class="btn btn-primary">Topic 1</button>
+        <button type="button" class="btn btn-secondary mx-4">Topic 2</button>
+        <button type="button" class="btn btn-success float-end">Next</button>
+    </div>
+
+    <div class="bg-image">
+
+        <div class="onimg-text w-50">
+            <h1 class="on-img-heading text-white m-4">Case Stories</h1>
+            <p class="on-img-para text-white m-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et sapiente quaerat distinctio maiores unde animi, magni autem repellendus quidem hic qui delectus. Ad cumque ipsum, labore minus consectetur ipsam ullam, architecto unde rerum assumenda tempore hic animi iste repellat ratione suscipit dignissimos, deleniti magni exercitationem perspiciatis numquam? Quidem, eveniet delectus?</p>
+            <p class="on-img-para text-white m-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et sapiente quaerat distinctio maiores unde animi, magni autem repellendus quidem hic qui delectus. Ad cumque ipsum, labore minus consectetur ipsam ullam, architecto unde rerum assumenda tempore hic animi iste repellat ratione suscipit dignissimos, deleniti magni exercitationem perspiciatis numquam? Quidem, eveniet delectus?</p>
+           
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white pt-5 pb-5">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-4 mx-auto">
+                    <h5 class="text-uppercase text-warning">Company Name</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti neque aperiam eos id omnis sequi nobis fugit, unde soluta quidem.</p>
+                </div>
+                <div class="col-lg-2 mx-auto">
+                    <h5 class="text-uppercase text-warning">Products</h5>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none;"> The Providers</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none;"> Creativity</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none;">Source Files</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none;">Bootstrap 5</a>
+                    </p>
+                </div>
+                <div class="col-lg-3 mx-auto ">
+                    <h5 class="text-uppercase text-warning">Useful Links</h5>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none;"> Your Account</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none;"> Become an Affiliates</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none;">Shipping Rates</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration:none;">Bootstrap 5</a>
+                    </p>
+                </div>
+                <div class="col-lg-3 mx-auto ">
+                    <h5 class="text-uppercase text-warning">Contact</h5>
+                    <p>
+                       <i class="fa fa-home me-2"></i>New York, NY24443, US
+                    </p>
+                    <p>
+                        <i class="fa fa-envelope me-2"></i>hr@incubxperts.com
+                    </p>
+                    <p>
+                        <i class="fa fa-phone me-2"></i>+91 93420553212
+                    </p>
+                    <p>
+                        <i class="fa fa-print me-2"></i> +01 335 1313 21
+                    </p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 mt-4">
+                    <p>Copyright &copy; All rights reserved by:
+                        <a href="#" class="text-warning"><strong>IncubXperts</strong></a>
+                    </p>
+                </div>
+
+                <div class="col-lg-6 mt-4 ">
+                    <div class="float-end">
+                        <a href="#" class="text-white"><i class="fa fa-facebook me-2 fa-2x"></i></a>
+                        <a href="#" class="text-white"><i class="fa fa-instagram me-2 fa-2x"></i></a>
+                        <a href="#" class="text-white"><i class="fa fa-twitter me-2 fa-2x"></i></a>
+                        <a href="#" class="text-white"><i class="fa fa-linkedin me-2 fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </footer>
+
+
+    <!-- Bootstrap Script file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
