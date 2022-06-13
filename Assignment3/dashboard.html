@@ -3,15 +3,149 @@
     <head>
         <title>Dashboard</title>
         <link rel="stylesheet" href="dashboard.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
         <header>
             <img src="https://incubxperts.com/wp-content/uploads/2020/12/ix-logo-w.png" alt="IncubXperts">
-            
+            <i class="fa fa-bars fa-2x hamburgericon" aria-hidden="true"></i>
             <div class="username">
-            <h2 id="userid">Admin</h2>
-            <img src="./Assets/profilepic.png" alt="profile picture" id="profilepic">
+                <img src="./Assets/profilepic.png" alt="profile picture" id="profilepic">
+                <img src="./Assets/profilepic.png" alt="profile picture" id="profilepic1">
+                <h2 id="userid">Admin</h2>
+                <i class="fa fa-caret-down  downarrowicon" aria-hidden="true"></i>
             </div>
         </header>
+
+        <div class="content">
+            <ul class="menu-items">
+                <li class="menulinks"><span class="fa fa-tachometer"></span> Dashboard</li>
+                <li class="menulinks"><span class="fa fa-smile-o"></span> Menu item 2</li>
+                <li class="menulinks"><span class="fa fa-smile-o"></span> Menu item 3</li>
+                <li class="menulinks"><span class="fa fa-smile-o"></span> Menu item 4</li>
+            </ul>
+            <div class="dashboard-head">
+                <div class="dash-sec1">
+                    <h1 class="dash-heading"> Dashboard</h1>
+                    <p class="dash-heading1">Home</p>
+                    <button class="dashboard-tabs">In Progress</button>
+                    <button class="dashboard-tabs">Completed</button>
+                    <button class="dashboard-tabs">All</button><hr>
+                    <div class="cardsection">
+                        <button class="droplinks">Type <span class="fa fa-caret-down"></span></button>
+                        <button class="droplinks">Classification <span class="fa fa-caret-down"></span></button>
+                        <button class="droplinks">Progress <span class="fa fa-caret-down"></span></button>
+                        <button class="droplinks">Days Since Notified <span class="fa fa-caret-down"></span></button>
+                        <button class="droplinks">Category <span class="fa fa-caret-down"></span></button>
+                        <button class="droplinks">Status <span class="fa fa-caret-down"></span></button>
+                        <button class="droplinks">Medium of Recall <span class="fa fa-caret-down"></span></button>
+                        <button class="clear-filter"><span class="fa fa-times"></span> Clear Filter</button>
+                        <button class="sort-by">Sort By <span class="fa fa-caret-down"></span></button>
+                    </div>
+                    <div class="cards">
+                        <div class="card1">
+                            <div class="bg">
+                                <span class="fa fa-envelope-o envicon"></span><button class="btn-urgent">Urgent</button><button class="btn-ack">Acknowledged</button>
+                            </div>
+                            <p class="date">05/05/2022</p>
+                            <h3 class="test-name">SUP_TEST</h3>
+                            <p class="qacode">qa12345</p>
+                            <p class="recall-id"><strong>Recall id:</strong>qwerty@sadsdsd.com</p>
+                            <div class="box">
+                                <div class="progress">
+                                    <span class="fa fa-spinner fa-4x"></span>
+                                    <p id="pro"><strong>progress</strong></p>
+                                </div>
+                                <div class="date-noti">
+                                    <h2  id="num">2</h2>
+                                    <p class="da">05/05/2022</p>
+                                    <p class="da">Days since notified</p>
+                                </div>
+                            </div>
+                            <div class="list">
+                                <ul class="list-itm">
+                                    <li>Sites -1</li>
+                                    <li>Category - <a href="#" class="itm-link">Blood Product</a></li>
+                                </ul>
+                            </div>
+                            <p class="side1"><span class="fa fa-exclamation-triangle"></span> Not yet Notified</p> |
+                            <p class="side2"><span class="fa fa-code-fork"></span> Removal</p>
+                            <div class="btn-view">
+                                <button class="view">View</button> 
+                            </div>
+
+                        </div>
+                        <div class="card1">
+                            <div class="bg">
+                                <span class="fa fa-envelope-o envicon"></span><button class="btn-urgent">Urgent</button><button class="btn-ack">Acknowledged</button>
+                            </div>
+                            <p class="date">05/05/2022</p>
+                            <h3 class="test-name">SUP_TEST</h3>
+                            <p class="qacode">qa12345</p>
+                            <p class="recall-id"><strong>Recall id:</strong>qwerty@sadsdsd.com</p>
+                            <div class="box">
+                                <div class="progress">
+                                    <span class="fa fa-spinner fa-4x"></span>
+                                    <p id="pro"><strong>progress</strong></p>
+                                </div>
+                                <div class="date-noti">
+                                    <h2  id="num">2</h2>
+                                    <p class="da">05/05/2022</p>
+                                    <p class="da">Days since notified</p>
+                                </div>
+                            </div>
+                            <div class="list">
+                                <ul class="list-itm">
+                                    <li>Sites -1</li>
+                                    <li>Category - <a href="#" class="itm-link">Blood Product</a></li>
+                                </ul>
+                            </div>
+                            <p class="side1"><span class="fa fa-exclamation-triangle"></span> Not yet Notified</p> |
+                            <p class="side2"><span class="fa fa-code-fork"></span> Removal</p>
+                            <div class="btn-view">
+                                <button class="view">View</button> 
+                            </div>
+
+                        </div>
+                        <div class="card1">
+                            <div class="bg">
+                                <span class="fa fa-envelope-o envicon"></span><button class="btn-urgent">Urgent</button><button class="btn-ack">Acknowledged</button>
+                            </div>
+                            <p class="date">05/05/2022</p>
+                            <h3 class="test-name">SUP_TEST</h3>
+                            <p class="qacode">qa12345</p>
+                            <p class="recall-id"><strong>Recall id:</strong>qwerty@sadsdsd.com</p>
+                            <div class="box">
+                                <div class="progress">
+                                    <span class="fa fa-spinner fa-4x"></span>
+                                    <p id="pro"><strong>progress</strong></p>
+                                </div>
+                                <div class="date-noti">
+                                    <h2 id="num">2</h2>
+                                    <p class="da">05/05/2022</p>
+                                    <p class="da">Days since notified</p>
+                                </div>
+                            </div>
+                            <div class="list">
+                                <ul class="list-itm">
+                                    <li>Sites -1</li>
+                                    <li>Category - <a href="#" class="itm-link">Blood Product</a></li>
+                                </ul>
+                            </div>
+                            <p class="side1"><span class="fa fa-exclamation-triangle"></span> Class II</p> |
+                            <p class="side2"><span class="fa fa-code-fork"></span> Product Adivsory</p>
+                            <div class="btn-view">
+                                <button class="view">View</button> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="circle-icons">
+                    <i class="fa fa-user-circle fa-3x  cirlceicons1" aria-hidden="true"></i>
+                    <i class="fa fa-user-circle fa-3x  cirlceicons2" aria-hidden="true"></i>
+                    <i class="fa fa-user-circle fa-3x  cirlceicons3" aria-hidden="true"></i>
+                    <i class="fa fa-user-circle fa-3x  cirlceicons4" aria-hidden="true"></i>
+                </div>
+            </div>
     </body>
 </html>
