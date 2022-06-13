@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+}
+
+.company-logo{
+    min-width: 30vw;
+    width:30vw ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{ 
+    width: auto;
+    height: 300px;
+}
+.mainlogo{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+.powered{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.powered h4{
+    text-align: center;
+    margin-bottom: -1px;
+    
+}
+.small-logo{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.poweredby{
+    width: 100px;
+    height: 100px;
+   
+}
+
+.container{
+    width: 70vw;
+   
+}
+
+.form-outer{
+    /* margin: 120px; */
+    margin-top: 100px;
+  
+    /* text-align: center; */
+}
+.input-icons i{
+    position: absolute;
+    padding: 8px;
+}
+
+.input-icons{
+    margin: 22px 0px;
+}
+.input-field{
+    background-color: #d3d3d370;
+    border: none;
+    width: 80%;
+    padding: 9px 25px 9px 31px;
+}
+.input-pass{
+    width: 80%;
+    background-color: #d3d3d370;
+    border: none;
+    padding: 7px 26px 9px 27px;
+}
+
+.pass-icon{
+    position: relative;
+    /* bottom: 36px; */
+    /* left: 246px; */
+    right: 31px;
+}
+.form-center{
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 23%;
+        margin-right: 20%;
+    
+}
+
+
+.form-head{
+    text-align: center;
+}
+
+#head-color{
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(5, 5, 68);
+}
+
+
+.btn-success{
+    cursor: pointer;
+    background-color: rgb(23, 187, 23);
+    border: none;
+    font-weight: bold;
+    width: 90%;
+    padding: 12px 23px 14px 27px;
+    
+}
+.asterick{
+    color: red;
+}
+#form-line{
+    font-size: 12px;
+}
