@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-lg-6"> 
+                <h1>Record Table</h1>
+                <table id="table" class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">Sr.no</th>
+                        <th scope="col">Firstname</th>
+                        <th scope="col">Lastname</th>
+                        <th scope="col">Country</th>
+                        <th scope="col">State</th>
+                        <th scope="col">City</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr></tr>
+                    </tbody>    
+                </table>
+            </div>
+            <div class="col-lg-6">
+                <h1>Fill in the details</h1>
+                <form>
+                    <div class="mb-3 col-lg-9">
+                        <label for="firstname" class="form-label">Firstname</label>
+                        <input type="text" class="form-control" id="firstname">
+                    </div>
+                    <div class="mb-3 col-sm-9">
+                        <label for="lastname" class="form-label">Lastname</label>
+                        <input type="text" class="form-control" id="lastname">
+                    </div>
+                    <div class=" f-group mb-3 col-sm-9">
+                        <label for="country">Country</label>
+                        <select name="country-list" id="country-list" class="form-select" onclick="dropdown()">
+                            <option value="">Choose...</option>
+                            <option value="india">India</option>
+                            <option value="uk">UK</option>
+                        </select>
+                    </div>
+                    <div class="f-group mb-3 col-sm-9">
+                        <label for="country">State</label>
+                        <select name="state-list" id="state-list" class="form-select" onclick="citydropdown()">
+                            <option value=""> Select...</option>
+                            <!-- <option selected>Choose...</option>
+                            <option value="Maharashtra">Maharashtra</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="West-England">West-England</option>
+                            <option value="East-England">East-England</option> -->
+                        </select>
+                    </div>
+                    <div class="mb-3 col-sm-9">
+                        <label for="country">City</label>
+                        <select id="city-list" class="form-select" >
+                            <option value=""> choose...</option>
+                            <!-- <option selected>Choose...</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="New-delhi">New Delhi</option>
+                            <option value="Gurugram">Gurugram</option>
+                            <option value="Bristol">Bristol</option>
+                            <option value="Cambridge">Cambridge</option> -->
+                        </select>
+                    </div>
+                    <button type="button" class="btn btn-primary" onClick="add()">Add</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
